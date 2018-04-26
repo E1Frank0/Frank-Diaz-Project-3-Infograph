@@ -1,0 +1,156 @@
+body {
+    background-color: cornflowerblue;
+}
+
+@font-face {
+    font-family: arcadeclassic;
+    src: url('../fonts/arcadeclassic/arcadeclassic.ttf');
+}
+
+@font-face {
+    font-family: minecraftia;
+    src: url('../fonts/minecraftia/minecraftia.ttf');
+}
+
+.main {
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    padding: 2em;    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: blue;
+    font-family: minecraftia;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .droplink {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .droplink {
+    background-color: aqua;
+}
+
+.data-links {
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    min-width: inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.data-links a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.data-links a:hover {
+    background-color: cyan;
+}
+
+.dropdown:hover .data-links {
+    display: block;
+}
+
+h1 {
+    font-family: arcadeclassic;
+    text-align: center;
+    font-weight: bold;
+    color: black; 
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+h2 {
+    font-family: arcadeclassic;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+p {
+    font-family: minecraftia;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.best-selling-consoles {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.ps2-best-selling-games {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+    /* background: "#4169E1"; */
+}
+
+.ps2-yearly-sales {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.ds-best-selling-games {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.ds-yearly-sales {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.gb-best-selling-games {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.gb-yearly-sales {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.ps1-best-selling-games {
+    width: 100%;
+    border: 1px solid #a2a2a2;
+}
+
+.wii-best-selling-games {
+   width: 100%;
+   border: 1px solid #a2a2a2; 
+}
+
+.wii-yearly-sales {
+   width: 100%;
+   border: 1px solid #a2a2a2;
+}
